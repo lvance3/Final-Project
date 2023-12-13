@@ -1,5 +1,8 @@
 # Final-Project
-repository of the final project for advanced programming
+final project for advanced programming
 
-The program is currently single threaded without a gui, but work is being done to move it to a similar setup as the lab5.
-Also not entirely satisfied with the style of output file
+The program will rad every .pdb file within a selected folder and calculate the relative energies of each model using pairwise interactions with a user determined distance threshold.
+
+The output.txt file will apear within the location the program itself is located in.
+
+The program supports multithreading with up to around 8x speedup on my machine at 12 threads.
